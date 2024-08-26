@@ -5,6 +5,7 @@ public class Demo {
 		try {
 			int z=0;
 			int x=42/z;
+
 		
 			System.out.println("Will not be printed.");
 		}
@@ -12,6 +13,10 @@ public class Demo {
 			System.out.println("divide by zero exception occured. "+ex.getMessage());
 		}
 		
-		System.out.println("will be printed ");
+			
+		
+			System.out.println("will be printed ");
 	}
-}
+		
+	}
+
