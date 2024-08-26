@@ -10,6 +10,7 @@ public class Demo {
 		catch(Exception ex){
 			System.out.println("divide by zero exception occured. "+ex.getMessage());
 		}
+		
 		System.out.println("will be printed ");
 	}
 }
