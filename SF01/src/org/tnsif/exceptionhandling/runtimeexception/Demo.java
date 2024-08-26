@@ -5,6 +5,7 @@ public class Demo {
 		try {
 			int z=0;
 			int x=42/z;
+		
 			System.out.println("Will not be printed.");
 		}
 		catch(Exception ex){
